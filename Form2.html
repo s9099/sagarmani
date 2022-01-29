@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<HTML>
+	<BODY BGCOLOR="silver">
+		<FORM action = "">
+			<CENTER><H1><U>Form Entry:</U></H1></CENTER>
+			First Name*:<br>
+			<INPUT TYPE = "text", NAME = "fname", PLACEHOLDER = "First Name", REQUIRED = "true", AUTOFOCUS, AUTOCOMPLETE = "true"><br>
+			Last Name:<br>
+			<INPUT TYPE = "text", NAME = "lname", PLACEHOLDER = "Last Name", AUTOCOMPLETE = "true"><br>
+			
+			Select Gender*:<br>
+			<INPUT TYPE = "radio", NAME = "gender", VALUE = "male", REQUIRED = "true">Male
+			<INPUT TYPE = "radio", NAME = "gender", VALUE = "female", REQUIRED = "true">Female
+			<INPUT TYPE = "radio", NAME = "gender", VALUE = "other", REQUIRED = "true">Other<br>
+			
+			Enter Age*:<br>
+			<INPUT TYPE = "number", NAME = "user_age", VALUE = "18", MIN = "18", MAX = "45", STEP = "1", REQUIRED = "true"><br>
+			
+			Enter DOB (Date of Birth)*:<br>
+			<INPUT TYPE = "date", NAME = "dob", MIN = "1976-01-01", MAX = "2003-12-31", PLACEHOLDER = "1990-06-15", REQUIRED = "true"><br>
+			
+			Enter Email*:<br>
+			<input TYPE = "email", NAME = "email", PLACEHOLDER = "xxxxx@something.com", REQUIRED = "true", AUTOCOMPLETE = "true"><br>
+			
+			Password*:<br>
+			<INPUT TYPE = "password", NAME = "psswrd", REQUIRED = "true"><br>
+			
+			Enter Telephone No.*:<br>
+			<INPUT TYPE = "tel", NAME = "telephone_no", MAXLENGTH = "10", PATTERN = "[0-9]{10, 10}", PLACEHOLDER = "05X-XXX-XXXX", REQUIRED = "true"><br>
+			
+			Enter URL:<br>
+			<INPUT TYPE = "url", NAME = "urltext", MAXLENGTH = "255", PLACEHOLDER = "http://site.com"><br>
+			
+			Enter Time of Commencing*:<br>
+			<INPUT TYPE = "time", NAME = "beginning_time"><br>
+			
+			Select your Transport(s):<br>
+			<INPUT TYPE = "checkbox", NAME = "Walking", VALUE = "Walking">Walking<br>
+			<INPUT TYPE = "checkbox", NAME = "Biking", VALUE = "Biking">Biking<br>
+			<INPUT TYPE = "checkbox", NAME = "Cars", VALUE = "Cars">Cars<br>
+			<INPUT TYPE = "checkbox", NAME = "Trains", VALUE = "Trains">Trains<br>
+			<INPUT TYPE = "checkbox", NAME = "Buses", VALUE = "Buses">Buses<br>
+			<INPUT TYPE = "checkbox", NAME = "Boats", VALUE = "Boats">Boats<br>
+			<INPUT TYPE = "checkbox", NAME = "Subways", VALUE = "Subways">Subways<br>
+			<INPUT TYPE = "checkbox", NAME = "AerialTramways", VALUE = "AerialTramways">Aerial Tramways<br>
+			<INPUT TYPE = "checkbox", NAME = "Flying", VALUE = "Flying">Flying<br>
+			<INPUT TYPE = "checkbox", NAME = "Funiculars", VALUE = "Funiculars">Funiculars<br><br>
+			
+			Select Color of Transport(s):<br>
+			<INPUT TYPE = "color", NAME = "transport_color"><br>
+			
+			Select your Sponsor:<br>
+			<SELECT ID = "Cars" NAME = "cars">
+				<OPTION VALUE = "mercedesbenz">Mercedes-Benz</OPTION>
+				<OPTION VALUE = "mercedesbenz">Mercedes-Benz</OPTION>
+				<OPTION VALUE = "toyota">Toyota</OPTION>
+				<OPTION VALUE = "volkswagen">Volkswagen</OPTION>
+				<OPTION VALUE = "bmw">Bayerische Motoren Werke (BMW)</OPTION>
+				<OPTION VALUE = "porsche">Porsche</OPTION>
+				<OPTION VALUE = "honda">Honda</OPTION>
+				<OPTION VALUE = "ford">Ford</OPTION>
+				<OPTION VALUE = "nissan">Nissan</OPTION>
+				<OPTION VALUE = "audi">Audi</OPTION>
+				<OPTION VALUE = "volvo">Volvo</OPTION>
+			</SELECT><br><br>
+			
+			Enter your Satisfaction (1-10):<br>
+			<INPUT TYPE = "range", NAME = "rating", VALUE = "5", MIN = "1", MAX = "10"><br>
+			
+			<BUTTON TYPE = "button", ONCLICK = "alert('Your data is saved')">Save Data</BUTTON>
+			<INPUT TYPE = "submit", VALUE = "Submit data"><br>
+			
+			<H6>*(Required)</H6>
+		</FORM>
+	</BODY>
+</HTML>
